@@ -22,8 +22,13 @@ Note that I use my old raspPi as a server for this bot and it not always work :)
 This bot will be controlled by this program.
 To control your bot you have to know bot unique `TOKEN`.
 Guide on how to create telegram bot and obtain token is here: https://core.telegram.org/bots
+In few words, you need to:
+   1. Open BotFather bot https://t.me/BotFather
+   2. Start bot by command **/start**
+   3. Create new bot by command **/newbot** and follow instructions
+   4. Use your token received from BotFather in step below
 
-2. Create file named .env in bot directory with following content:
+2. Create file named `.env` in bot directory with following content:
 ```
 TOKEN = 'your private telegram bot token'
 ADMIN = 'password used to bot admin commands'
